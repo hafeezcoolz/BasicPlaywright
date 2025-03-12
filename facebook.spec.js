@@ -43,9 +43,9 @@ await page.waitForTimeout(5000);
 
 const page1 = await page1Promise;
 await page1.locator('//div[@class="Xb9hP"]//input[@type="email"]').fill("testuser001@gmail.com");
-// await page1.waitForTimeout(5000);
+await page1.waitForTimeout(5000);
 
 await page1.close();
-// await page.waitForTimeout(5000);
+await page.waitForTimeout(5000);
 await page.quit();
 })
